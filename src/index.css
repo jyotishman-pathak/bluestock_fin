@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+.search-bar-container {
+    position: absolute;
+    top: 19px;
+    left: 266px;
+  }
+  
+  .search-bar {
+    width: 625px;
+    height: 32px;
+    border-radius: 5px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    outline: none;
+  }
+  
+  .search-bar::placeholder {
+    color: #888;
+  }

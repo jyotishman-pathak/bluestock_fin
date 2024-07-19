@@ -1,8 +1,9 @@
+import UpcomingIPOs from "../components/IPO/UpcomingIPOs"
 
 
 const UpcomingIPOsPage = () => {
   return (
-    <div>UpcomingIPOsPage</div>
+   <UpcomingIPOs />
   )
 }
 
